@@ -1,0 +1,14 @@
+.product-image,
+.hover-image {
+  height: 356px; /* Fixed height */
+  width: 100%; /* Full width */
+  object-fit: cover; /* Cover to maintain aspect ratio */
+}
+
+.card {
+  transition: transform 0.3s; /* Optional: smooth transition */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Optional: scales the card */
+}
